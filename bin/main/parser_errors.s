@@ -1,0 +1,5 @@
+lst
+ADD X1, X5, 32
+ADD X1, X1, 11
+lt
+ADD X2, X1, X1

@@ -1,0 +1,51 @@
+.button {
+	-fx-background-color: linear-gradient(cornsilk, sandybrown);
+    	-fx-background-insets: 0;
+	-fx-min-width: 80;
+	-fx-font-family: "Comic Sans MS";
+}
+
+.button:hover {
+	-fx-background-color: chocolate, sandybrown;
+	-fx-background-insets: 0, 0;
+}
+
+.button:pressed {
+	-fx-background-insets: 0, 2;
+}
+
+.root {
+	-fx-font-family: "monospace";
+	-fx-font-weight: bold;
+}
+
+.text-field {
+	-fx-background-color: cornsilk;
+	-fx-min-height: 0;
+	-fx-font-family: Comic Sans MS;
+}
+
+.list-view {
+	-fx-control-inner-background: cornsilk;
+	-fx-font-size: 13;
+}
+
+#ARM-top {
+	-fx-background-color: #B0A5F5;
+}
+
+#ARM-program {
+	-fx-font-weight: normal;
+	-fx-font-size: 16;
+}
+
+#ARM-memory {
+	-fx-control-inner-background: ivory;
+	-fx-font-size: 11;
+}
+
+#ARM-console {
+	-fx-font-size: 14;
+	-fx-font-weight: normal;
+	-fx-control-inner-background: ivory;
+}
