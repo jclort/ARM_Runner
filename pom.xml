@@ -5,8 +5,8 @@
   <!-- project coordinates, i.e. a group of values which
        uniquely identify this project -->
   
-  <groupId>com.mycompany.app</groupId>
-  <artifactId>my-app</artifactId>
+  <groupId>com.UD.arm</groupId>
+  <artifactId>ARM_Runner</artifactId>
   <version>1.0</version>
 
   <properties>
@@ -21,6 +21,7 @@
 
 	<groupId>javafx</groupId>
 	<artifactId>javafx</artifactId>
+	<version>11.0.3</version>
 
     </dependency>
     <dependency>
