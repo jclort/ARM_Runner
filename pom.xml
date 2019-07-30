@@ -25,6 +25,13 @@
 	
     </dependency>
     <dependency>
+	<groupId>org.openjfx</groupId>
+	<artifactId>javafx-controls</artifactId>
+	<version>11</version>
+	<type>pom</type>
+	
+    </dependency>
+    <dependency>
     
       <!-- coordinates of the required library -->
       
