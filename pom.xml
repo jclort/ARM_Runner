@@ -19,21 +19,7 @@
   <dependencies>
     <dependency>
 	<groupId>org.openjfx</groupId>
-	<artifactId>javafx-controls</artifactId>
-	<version>11</version>
-	<type>pom</type>
-	
-    </dependency>
-    <dependency>
-	<groupId>org.openjfx</groupId>
-	<artifactId>javafx-beans-property</artifactId>
-	<version>11</version>
-	<type>pom</type>
-	
-    </dependency>
-    <dependency>
-	<groupId>org.openjfx</groupId>
-	<artifactId>javafx-scene</artifactId>
+	<artifactId>javafx</artifactId>
 	<version>11</version>
 	<type>pom</type>
 	
