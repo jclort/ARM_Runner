@@ -18,12 +18,25 @@
   
   <dependencies>
     <dependency>
-
 	<groupId>org.openjfx</groupId>
-	<artifactId>javafx</artifactId>
+	<artifactId>javafx-controls</artifactId>
 	<version>11</version>
 	<type>pom</type>
-
+	<scope>system</scope>
+    </dependency>
+    <dependency>
+	<groupId>org.openjfx</groupId>
+	<artifactId>javafx-beans-property</artifactId>
+	<version>11</version>
+	<type>pom</type>
+	<scope>system</scope>
+    </dependency>
+    <dependency>
+	<groupId>org.openjfx</groupId>
+	<artifactId>javafx-scene</artifactId>
+	<version>11</version>
+	<type>pom</type>
+	<scope>system</scope>
     </dependency>
     <dependency>
     
@@ -39,4 +52,5 @@
       
     </dependency>
   </dependencies>
+
 </project>
