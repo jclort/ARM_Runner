@@ -1,0 +1,40 @@
+<project>
+  <!-- model version is always 4.0.0 for Maven 2.x POMs -->
+  <modelVersion>4.0.0</modelVersion>
+  
+  <!-- project coordinates, i.e. a group of values which
+       uniquely identify this project -->
+  
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-app</artifactId>
+  <version>1.0</version>
+
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <!-- library dependencies -->
+  
+  <dependencies>
+    <dependency>
+
+	<groupId>javafx</groupId>
+	<artifactId>javafx</artifactId>
+
+    </dependency>
+    <dependency>
+    
+      <!-- coordinates of the required library -->
+      
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>5.1.0</version>
+      
+      <!-- this dependency is only used for running and compiling tests -->
+      
+      <scope>test</scope>
+      
+    </dependency>
+  </dependencies>
+</project>
